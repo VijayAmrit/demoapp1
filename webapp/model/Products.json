@@ -1,0 +1,49 @@
+{
+    "Products": [
+      {
+        "ProductID": "Apple-1",  
+        "ProductName": "Apple",
+        "Quantity": 2,
+        "ExtendedPrice": 23.4600,
+        "ShipperName": "Froot Inc.",
+        "ShippedDate": "2019-03-11T00:00:00",
+        "Status": "B"
+      },
+      {
+        "ProductID": "Banana-1",  
+        "ProductName": "Banana",
+        "Quantity": 12,
+        "ExtendedPrice": 6.23546,
+        "ShipperName": "HEALTH",
+        "ShippedDate": "2019-02-01T00:00:00",
+        "Status": "A"
+      },
+      {
+        "ProductID": "Oranges-1",  
+        "ProductName": "Oranges",
+        "Quantity": 50,
+        "ExtendedPrice": 8.56945,
+        "ShipperName": "HEALTH",
+        "ShippedDate": "2019-01-28T00:00:00",
+        "Status": "A"
+      },
+      {
+        "ProductID": "PineApple-1",  
+        "ProductName": "PineApple",
+        "Quantity": 10,
+        "ExtendedPrice": 7.1234,
+        "ShipperName": "HEALTH",
+        "ShippedDate": "2019-01-22T00:00:00",
+        "Status": "B"
+      },
+      {
+        "ProductID": "Guava-1",  
+        "ProductName": "Guava",
+        "Quantity": 15,
+        "ExtendedPrice": 3.45835,
+        "ShipperName": "Froot Inc.",
+        "ShippedDate": "2019-02-26T00:00:00",
+        "Status": "C"
+      }
+    ]
+  }

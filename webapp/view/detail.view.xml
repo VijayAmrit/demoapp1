@@ -1,0 +1,25 @@
+<mvc:View
+	controllerName="za.spar.customer.demoapp1.controller.detail"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	displayBlock="true"
+	xmlns="sap.m"
+>
+	<Page
+		id="detailView"
+		title="{products>/Products/0/ProductName}"
+	>
+		<content>
+			<ObjectHeader
+				id="objectheader"
+				title="{nModel>/customer/CustomerID}"
+			>
+			
+				<ObjectAttribute
+					id="objectAttribute"
+					text="{nModel>/customer/CustomeName}"
+				/>
+			</ObjectHeader>
+		</content>
+	</Page>
+</mvc:View>

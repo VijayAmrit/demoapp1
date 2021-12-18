@@ -1,0 +1,50 @@
+<mvc:View
+	controllerName="za.spar.customer.demoapp1.controller.master"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	displayBlock="true"
+	xmlns="sap.m"
+>
+	<Page
+		id="masterView"
+		title="{i18n>title}"
+	>
+		<content>
+			<Label
+				text="Name"
+				id="label-1"
+			/>
+			<ComboBox
+				id="_IDGenComboBox1"
+				items="{
+					path: 'products>/Products'
+				}"
+			>
+				<core:Item
+					id="_IDGenItem1"
+					key="{products>ProductID}"
+					text="{products>ProductName}"
+				/>
+			</ComboBox>
+			<List
+				id="companyList"
+				items="{
+					path: 'masterModel>/Customers',
+					templateShareable: false
+				}"
+			>
+				<ObjectListItem
+					id="_IDGenObjectListItem1"
+					title="{masterModel>ContactName}"
+					type="Active"
+					press="onListItemPress"
+				>
+					<ObjectAttribute
+						id="_IDGenObjectAttribute1"
+						text="{masterModel>CustomerID}"
+					/>
+				</ObjectListItem>
+			</List>
+		</content>
+	</Page>
+</mvc:View>
