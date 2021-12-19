@@ -85,7 +85,6 @@
             "detailModel": {
                 "type": "sap.ui.model.json.JSONModel",
                 "preload": false,
-                ""
                 "settings": {}
             }
         },
